@@ -27,6 +27,13 @@ namespace DatingApp.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
                 });
+            migrationBuilder.AlterColumn<DateTime>(
+                name: "BirthDate",
+                table: "Users",
+                type: "timestamp without time zone",
+                nullable: false,
+                oldClrType: typeof(DateTime),
+                oldType: "timestamp with time zone");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
