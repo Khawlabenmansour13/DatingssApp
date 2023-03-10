@@ -1,0 +1,14 @@
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\bin\Debug\net6.0\DatingApp.Domaine.deps.json
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\bin\Debug\net6.0\DatingApp.Domaine.runtimeconfig.json
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\bin\Debug\net6.0\DatingApp.Domaine.dll
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\bin\Debug\net6.0\DatingApp.Domaine.pdb
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\DatingApp.Domaine.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\DatingApp.Domaine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\DatingApp.Domaine.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\DatingApp.Domaine.AssemblyInfo.cs
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\DatingApp.Domaine.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\DatingApp.Domaine.dll
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\refint\DatingApp.Domaine.dll
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\DatingApp.Domaine.pdb
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\DatingApp.Domaine.genruntimeconfig.cache
+C:\Users\MSI\source\repos\WebApi\DatingApp.Domaine\obj\Debug\net6.0\ref\DatingApp.Domaine.dll

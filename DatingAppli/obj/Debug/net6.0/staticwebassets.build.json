@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UP9plU9uEAXJA78cxDbxjEtWqGoJpjxLue83gWYHwwA=",
+  "Source": "DatingApp.WebApi",
+  "BasePath": "_content/DatingApp.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
