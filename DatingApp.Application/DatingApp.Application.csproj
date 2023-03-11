@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <Folder Include="Users\DTOs\" />
+    <Folder Include="Users\Handlers\NewFolder\" />
     <Folder Include="Users\Interface\" />
   </ItemGroup>
 

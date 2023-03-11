@@ -39,14 +39,14 @@ namespace DatingApp.WebApi.Controllers
             return await _mediator.Send(new GetUserByIdQuery((Guid)id));
         }
 
-
-        [HttpGet("GetUsers/{email}")]
+        
+        [HttpGet("{email}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<AppUser> GetUserByEmail(string email)
         {
             return await _mediator.Send(new GetUserByEmailQuery((string)email));
         }
-
+    
 
         [HttpPost("AddUser")]
         [ProducesResponseType(StatusCodes.Status200OK)]

@@ -10,15 +10,16 @@ namespace DatingApp.Application.Users.Commands.UpdateUser
 {
     public class UpdateUserCommand :IRequest<UserResponse>
     {
+        public Guid Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime BirthDate { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
-        public Guid Id { get; internal set; }
+       
 
-        public UpdateUserCommand(string firstName, string lastName, DateTime birthDate, string phoneNumber, string email, string address)
+      public UpdateUserCommand(string firstName, string lastName, DateTime birthDate, string phoneNumber, string email, string address, Guid id)
         {
             FirstName = firstName;
             LastName = lastName;
@@ -26,7 +27,7 @@ namespace DatingApp.Application.Users.Commands.UpdateUser
             PhoneNumber = phoneNumber;
             Email = email;
             Address = address;
-            this.Id = Id;
+           Id = id;
         }
     }
 }

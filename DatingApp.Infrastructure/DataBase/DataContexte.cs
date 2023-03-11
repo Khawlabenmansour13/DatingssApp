@@ -15,14 +15,25 @@ namespace Infrastructure.DataBase
         public DataContexte(DbContextOptions<DataContexte> options)
          : base(options)
         {
-           // AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             //AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
         }
+
+
 
        // public DbSet<AppUser> Users { get; set; }
        public DbSet<AppUser> Users { get; set; }
 
-
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+    modelBuilder.Entity<AppUser>()
+        .Property(p => p.BirthDate)
+        .HasConversion
+        (
+            src => src.Kind == DateTimeKind.Utc ? src : DateTime.SpecifyKind(src, DateTimeKind.Utc),
+            dst => dst.Kind == DateTimeKind.Utc ? dst : DateTime.SpecifyKind(dst, DateTimeKind.Utc)
+        );
+}
     }
 
 }

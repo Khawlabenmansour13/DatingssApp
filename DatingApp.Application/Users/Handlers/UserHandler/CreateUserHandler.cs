@@ -28,7 +28,7 @@ namespace DatingApp.Application.Users.Handlers
                 throw new ApplicationException("There is a problem in mapper");
             }
             var newUser = await userCommandRepository.AddAsync(UserEntity);
-            var UserResponse = UserMapper.Mapper.Map<UserResponse>(newUser);
+            var ResponseUser = UserMapper.Mapper.Map<UserResponse>(newUser);
             return new UserResponse
 
             {
@@ -36,7 +36,7 @@ namespace DatingApp.Application.Users.Handlers
                 Message = "User added successfully"
             };
 
-        }
+        } 
 
    
 

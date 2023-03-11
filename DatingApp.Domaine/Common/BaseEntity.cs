@@ -14,14 +14,14 @@ namespace DatingApp.Domaine.Common
         [Key]
 
         public Guid Id { get; set; }
-        [NotMapped]
-        public NpgsqlDateTime CreatedDate { get; set; }
-        [NotMapped]
-        public NpgsqlDateTime ModifiedDate { get; private set; }
+      
+        public DateTime CreatedDate { get; set; }
+     
+        public DateTime ModifiedDate { get; private set; }
 
         public BaseEntity()
         {
-            this.ModifiedDate = NpgsqlDateTime.Now;
+            this.ModifiedDate = DateTime.Now;
         }
     }
 }
