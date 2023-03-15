@@ -48,3 +48,11 @@ C:\Users\MSI\source\repos\WebApi\DatingAppli\obj\Debug\net6.0\refint\DatingApp.W
 C:\Users\MSI\source\repos\WebApi\DatingAppli\obj\Debug\net6.0\DatingApp.WebApi.pdb
 C:\Users\MSI\source\repos\WebApi\DatingAppli\obj\Debug\net6.0\DatingApp.WebApi.genruntimeconfig.cache
 C:\Users\MSI\source\repos\WebApi\DatingAppli\obj\Debug\net6.0\ref\DatingApp.WebApi.dll
+C:\Users\MSI\source\repos\WebApi\DatingAppli\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\MSI\source\repos\WebApi\DatingAppli\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\MSI\source\repos\WebApi\DatingAppli\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\MSI\source\repos\WebApi\DatingAppli\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\MSI\source\repos\WebApi\DatingAppli\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MSI\source\repos\WebApi\DatingAppli\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\MSI\source\repos\WebApi\DatingAppli\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\MSI\source\repos\WebApi\DatingAppli\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Users\Handlers\NewFolder\**" />
-    <EmbeddedResource Remove="Users\Handlers\NewFolder\**" />
-    <None Remove="Users\Handlers\NewFolder\**" />
+    <Compile Remove="Persons\Handlers\NewFolder\**" />
+    <EmbeddedResource Remove="Persons\Handlers\NewFolder\**" />
+    <None Remove="Persons\Handlers\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +26,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.27.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.27.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,8 +36,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Users\Interfaces\UserCommandService\" />
-    <Folder Include="Users\Interfaces\UserQueryService\" />
+    <Folder Include="Persons\Interfaces\PersonCommandService\" />
+    <Folder Include="Persons\Interfaces\PersonQueryService\" />
+    <Folder Include="Users\Commands\" />
+    <Folder Include="Users\Common\" />
+    <Folder Include="Users\Handlers\" />
+    <Folder Include="Users\Responses\" />
+    <Folder Include="Users\Queries\" />
   </ItemGroup>
 
 </Project>

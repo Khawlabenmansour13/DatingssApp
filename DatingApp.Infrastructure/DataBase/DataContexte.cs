@@ -22,11 +22,12 @@ namespace Infrastructure.DataBase
 
 
        // public DbSet<AppUser> Users { get; set; }
+       public DbSet<Person> Persons { get; set; }
        public DbSet<AppUser> Users { get; set; }
 
-protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
 {
-    modelBuilder.Entity<AppUser>()
+    modelBuilder.Entity<Person>()
         .Property(p => p.BirthDate)
         .HasConversion
         (
